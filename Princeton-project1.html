@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princeton Scary Creatures</title>
+    <link href="project.css"rel="stylesheet">
+</head>
+<body>
+    <img src="images/scary1.png" alt="monster" id="leftpic">
+    <img src="images/scary2.png" alt="some scary monster" id="rightpic">
+    <h1>&ensp;Princeton Scary <br>Creatures Database</h1>
+ 
+
+    <form id="search-form">
+        <label for="rank-search">Creature Rank:</label>
+        <input type="number" id="rank-search" name="rank-search" value="1">
+        <button type="submit">Search</button>
+    </form>
+    <div>
+        <button id="previous-button" >Previous</button>
+        <button id="next-button">Next</button>
+    </div>
+    <div id="creature-container">
+        <h2 id="name"></h2>
+        <p id="rank"></p>
+        <p id="attack"></p>
+        <p id="defense"></p>
+        <p id="health"></p>
+        <p id="feelings"></p>
+     </div>
+    <script src="p2.js"></script>
+</body>
+</html>

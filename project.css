@@ -1,0 +1,109 @@
+body {
+    background-color: #031732;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 30px;
+    color: rgb(87, 230, 240);
+  }
+  
+  #leftpic {
+    float: left;
+    width: 300px;
+    height: 350px;
+    margin-right: 20px;
+  }
+  
+  #rightpic {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="number"] {  
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+    margin: 0;
+    position: relative;
+    left: 29%;
+    transform: translateX(-50%);
+  }
+  
+  button[type="submit"] {
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00bfff;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #009acd;
+  }
+  
+  div {
+    text-align: center;
+    margin-top: 110px;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    margin: 5px;
+    margin-top: -8%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  #creature-container {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #feelings {
+    margin-top: 20px;
+  }
